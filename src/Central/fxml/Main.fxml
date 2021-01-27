@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="900.0" style="-fx-background-color: #E5E5E5;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="628.0" prefHeight="585.0" prefWidth="281.0" style="-fx-background-color: #888888;">
+         <children>
+            <Pane prefHeight="171.0" prefWidth="281.0">
+               <children>
+                  <Label layoutX="78.0" layoutY="38.0" text="Chess">
+                     <font>
+                        <Font name="Impact" size="49.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="59.0" prefWidth="281.0" style="-fx-background-color: #888888;" stylesheets="@../css/packageStyling.css" text="Quick Start" textFill="#fcba12">
+               <font>
+                  <Font name="Impact" size="22.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="59.0" prefWidth="281.0" style="-fx-background-color: #888888;" stylesheets="@../css/packageStyling.css" text="Player vs Player" textFill="#febc11">
+               <font>
+                  <Font name="Impact" size="22.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="58.0" prefWidth="281.0" style="-fx-background-color: #888888;" stylesheets="@../css/packageStyling.css" text="AI vs AI" textFill="#febc11">
+               <font>
+                  <Font name="Impact" size="22.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="61.0" prefWidth="281.0" style="-fx-background-color: #888888;" stylesheets="@../css/packageStyling.css" text="How To Play" textFill="#febc11">
+               <font>
+                  <Font name="Impact" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
